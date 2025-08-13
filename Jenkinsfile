@@ -33,7 +33,7 @@ pipeline {
                     . venv/bin/activate
 
                     # Run tests
-                    pytest
+                    PYTHONPATH=. pytest
                 '''
             }
         }
